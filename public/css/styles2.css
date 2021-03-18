@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
 
+.toast{
+    border-radius: 6px !important;
+}
+.toast.toast-success{
+    background-color: #d3c0f6 !important;
+    opacity: 0.8 !important;
+    color: black !important;
+}
+.toast.toast-error{
+    background-color: #ffd7e4 !important;
+    opacity: 0.8 !important;
+    color: black !important;
+}
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -124,6 +137,15 @@ h2,h3,h1{
     font-weight: 600;
     transition: ease 0.5s;
 }
+.buy-button > button {
+    margin-top: 2rem;
+    color: #1d1d1d;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-weight: 600;
+    transition: ease 0.5s;
+}
 
 .buy-button > a:hover {
     letter-spacing: 0.23rem;
@@ -133,7 +155,9 @@ h2,h3,h1{
     border: 2px solid black !important;
     color: black !important;
 }
-
+footer{
+    margin-top: 10em !important;
+}
 footer ul a{
     text-decoration: none !important;
     font-size: 1.1em;
@@ -145,6 +169,7 @@ footer ul a{
     text-align: justify;
     text-justify: distribute;
 }
+
 
 @media only screen and (min-width: 1600px) {
     .container{
@@ -162,5 +187,62 @@ footer ul a{
     .hero-cta a{
         margin-top: 4em;
         font-size: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #features .glass-2{
+        height: 400px;
+    }
+    #faq .glass-2{
+        height: 400px;
+    }
+    .hero-inner{
+        width: 100%;
+        padding-top: 15%;
+    }
+    .tagline{
+        font-size: 3.3em;
+    }
+    .hero-cta .btn{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .feature-h{
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    .feature-t{
+        font-size: 1em;
+    }
+    .feature-i{
+        font-size: 3em;
+    }
+    #features .glass-2{
+        padding: 5px 10px !important;
+        height: auto;
+    }
+    #faq .glass-2{
+        height: auto;
+    }
+    #form-glass{
+        padding: 25px 10px !important;
+    }
+
+
+    .hero-inner{
+        width: 100%;
+        padding-top: 15%;
+    }
+    .tagline{
+        font-size: 1.5em;
+    }
+    .hero-cta .btn{
+        font-size: 0.9em;
+    }
+    .section-heading{
+        width: 100%;
     }
 }

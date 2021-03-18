@@ -2,14 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
     <title>SPA Proxies</title>
-    <link rel="shortcut icon" type="image/x-icon" href="public/img/logo_1.png">
+    <link rel="shortcut icon" type="image/x-icon" href="public/img/logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="public/css/styles2.css">
+
     <link href="https://unpkg.com/pattern.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="public/css/toastr.min.css">
+    <link rel="stylesheet" href="public/css/styles2.css">
+
 
 </head>
 <body class="glass">
@@ -18,8 +24,9 @@
 <header class="">
     <nav class="navbar navbar-expand-lg navbar-light py-lg-4 px-lg-5">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="public/img/logo-spa.png" class="logo" alt="SPA Proxies"
-                                                  width="200px"></a>
+            <a class="navbar-brand" href="#">
+                <img src="public/img/logo-spa.png" class="logo" alt="SPA Proxies" width="200px">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +77,7 @@
     </div>
     <div class="">
         <div class="row mt-5">
-            <div data-aos="zoom-in-up" data-aos-delay="100" class="col-lg-4 my-5">
+            <div data-aos="zoom-in-up" data-aos-delay="100" class="col-lg-4 col-6 my-lg-5 my-2">
                 <div class="pattern-diagonal-lines-sm text-light rounded">
                     <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
                         <h2 class="feature-h">Private & fresh resources</h2>
@@ -81,7 +88,7 @@
 
             </div>
 
-            <div data-aos="zoom-in-up" data-aos-delay="250" class="col-lg-4 my-5">
+            <div data-aos="zoom-in-up" data-aos-delay="250" class="col-lg-4 col-6  my-lg-5 my-2">
                 <div class="pattern-diagonal-lines-sm text-light rounded">
                     <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
                         <h2 class="feature-h">Blazing fast <br> speed</h2>
@@ -92,7 +99,7 @@
 
             </div>
 
-            <div data-aos="zoom-in-up" data-aos-delay="200" class="col-lg-4 my-5">
+            <div data-aos="zoom-in-up" data-aos-delay="200" class="col-lg-4 col-6 my-lg-5 my-2">
                 <div class="pattern-diagonal-lines-sm text-light rounded">
                     <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
                         <h2 class="feature-h">99.99% uptime guarantee</h2>
@@ -103,33 +110,36 @@
 
             </div>
 
-            <div data-aos="zoom-in-up" data-aos-delay="350" class="col-lg-4 my-5">
+            <div data-aos="zoom-in-up" data-aos-delay="350" class="col-lg-4 col-6 my-lg-5 my-2">
                 <div class="pattern-diagonal-lines-sm text-light rounded">
                     <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
-                        <h2 class="feature-h">Flexible package <br>pricing </h2>
-                        <p class="feature-t">Diverse product lines and affordable prices make us the only residential proxy provider you need.</p>
+                        <h2 class="feature-h">Flexible plan & prices </h2>
+                        <p class="feature-t">Diverse product lines and affordable prices make us the only residential
+                            proxy provider you need.</p>
                         <span class="feature-i"><i class="fa fa-money-bill-alt"></i> </span>
                     </div>
                 </div>
 
             </div>
 
-            <div data-aos="zoom-in-up" data-aos-delay="150" class="col-lg-4 my-5">
+            <div data-aos="zoom-in-up" data-aos-delay="150" class="col-lg-4 col-6 my-lg-5 my-2">
                 <div class="pattern-diagonal-lines-sm text-light rounded">
                     <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
                         <h2 class="feature-h">Multiple payment options</h2>
-                        <p class="feature-t">We support Alipay, Wechat and card payments. Reach out on discord for other payment methods.</p>
+                        <p class="feature-t">We support Alipay, Wechat and card payments. Reach out on discord for other
+                            payment methods.</p>
                         <span class="feature-i"><i class="fa fa-credit-card"></i> </span>
                     </div>
                 </div>
 
             </div>
 
-            <div data-aos="zoom-in-up" data-aos-delay="300" class="col-lg-4 my-5">
+            <div data-aos="zoom-in-up" data-aos-delay="300" class="col-lg-4 col-6 my-lg-5 my-2">
                 <div class="pattern-diagonal-lines-sm text-light rounded">
                     <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
                         <h2 class="feature-h">24/7 dedicated support</h2>
-                        <p class="feature-t">We do not sleep and always here for your help. Get in touch and we'll answer all your questions! </p>
+                        <p class="feature-t">We do not sleep and always here for your help. Get in touch and we'll
+                            answer all your questions! </p>
                         <span class="feature-i"><i class="fab fa-discord"></i> </span>
                     </div>
                 </div>
@@ -147,16 +157,17 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="row mt-5">
-                    <div data-aos="zoom-in-up" class="col-lg-6 my-2">
+                    <div data-aos="zoom-in-up" class="col-lg-6 col-md-6 my-2">
                         <div class="pattern-diagonal-lines-sm text-light rounded">
                             <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
                                 <h2 class="feature-h">Which kind of service do you offer?</h2>
-                                <p class="feature-t">The service we offer currently includes residential proxies and ISP proxies. We will start to offer server and hosting service soon.</p>
+                                <p class="feature-t">The service we offer currently includes residential proxies and ISP
+                                    proxies. We will start to offer server and hosting service soon.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div data-aos="zoom-in-up" class="col-lg-6 my-2">
+                    <div data-aos="zoom-in-up" class="col-lg-6 col-md-6 my-2">
                         <div class="pattern-diagonal-lines-sm text-light rounded">
                             <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
                                 <h2 class="feature-h">Can your proxies be only used for sneaker sites?</h2>
@@ -165,38 +176,42 @@
                         </div>
                     </div>
 
-                    <div data-aos="zoom-in-up" class="col-lg-6 my-2">
+                    <div data-aos="zoom-in-up" class="col-lg-6 col-md-6 my-2">
                         <div class="pattern-diagonal-lines-sm text-light rounded">
                             <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
                                 <h2 class="feature-h">What makes you different from other providers?</h2>
-                                <p class="feature-t">Our private dedicated residential pools are managed fully by ourselves. We always monitor everything and never oversell.</p>
+                                <p class="feature-t">Our private dedicated residential pools are managed fully by
+                                    ourselves. We always monitor everything and never oversell.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div data-aos="zoom-in-up" class="col-lg-6 my-2">
+                    <div data-aos="zoom-in-up" class="col-lg-6 col-md-6 my-2">
                         <div class="pattern-diagonal-lines-sm text-light rounded">
                             <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
                                 <h2 class="feature-h">Why some of your products always “sold out”?</h2>
-                                <p class="feature-t">We do this to control the number of users which guarantee that our servers can handle the load during the drop.</p>
+                                <p class="feature-t">We do this to control the number of users which guarantee that our
+                                    servers can handle the load during the drop.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div data-aos="zoom-in-up" class="col-lg-6 my-2">
+                    <div data-aos="zoom-in-up" class="col-lg-6 col-md-6 my-2">
                         <div class="pattern-diagonal-lines-sm text-light rounded">
                             <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
                                 <h2 class="feature-h">How is your customer service?</h2>
-                                <p class="feature-t">Our support team works 24/7 to answer every question and provide all tips and setup guide we know.</p>
+                                <p class="feature-t">Our support team works 24/7 to answer every question and provide
+                                    all tips and setup guide we know.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div data-aos="zoom-in-up" class="col-lg-6 my-2">
+                    <div data-aos="zoom-in-up" class="col-lg-6 col-md-6 my-2">
                         <div class="pattern-diagonal-lines-sm text-light rounded">
                             <div class="glass-2 px-5 py-3 text-dark" style="transform: translate(10px, -10px)">
                                 <h2 class="feature-h">How can I buy your products?</h2>
-                                <p class="feature-t">You need to be in our server first to get access to dashboard. We will give out the invites very frequently in twitter and our discord server.</p>
+                                <p class="feature-t">You need to be in our server first to get access to dashboard. We
+                                    will give out the invites very frequently in twitter and our discord server.</p>
                             </div>
                         </div>
                     </div>
@@ -220,7 +235,7 @@
     </div>
     <div>
         <div class="row mt-5">
-            <div data-aos="zoom-in-up" class="col-lg-3 col-6 mb-4">
+            <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
                 <div class="pattern-diagonal-lines-sm text-light rounded">
                     <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
                         <div class="d-flex justify-content-between">
@@ -242,7 +257,7 @@
 
             </div>
 
-            <div data-aos="zoom-in-up" class="col-lg-3 col-6 mb-4">
+            <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
                 <div class="pattern-diagonal-lines-sm text-light rounded">
                     <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
                         <div class="d-flex justify-content-between">
@@ -264,7 +279,7 @@
 
             </div>
 
-            <div data-aos="zoom-in-up" class="col-lg-3 col-6 mb-4">
+            <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
                 <div class="pattern-diagonal-lines-sm text-light rounded">
                     <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
                         <div class="d-flex justify-content-between">
@@ -287,7 +302,7 @@
 
             </div>
 
-            <div data-aos="zoom-in-up" class="col-lg-3 col-6 mb-4">
+            <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
                 <div class="pattern-diagonal-lines-sm text-light rounded">
                     <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
                         <div class="d-flex justify-content-between">
@@ -320,36 +335,35 @@
     <div>
         <div class="row justify-content-center mt-5">
             <div class="col-lg-8">
-                <form action="#" method="post">
+                <form method="post" id="contact-form" action="#">
                     <div class="pattern-diagonal-lines-sm text-light rounded">
-                        <div class="glass-2 px-5 py-5 text-dark" style="transform: translate(10px, -10px)">
-                            <form>
-                                <div class="row">
-                                    <div class="col-12 col-md-6 aos-init aos-animate" data-aos="zoom-in-up">
-                                        <input type="text" name="name" class="form-control glass-2 px-3 py-2 mb-3"
-                                               placeholder="Your name" autocomplete="off">
-                                    </div>
-                                    <div class="col-12 col-md-6 aos-init aos-animate" data-aos="zoom-in-up">
-                                        <input type="text" name="email" class="form-control glass-2 px-3 py-2 mb-3"
-                                               placeholder="Email Address" autocomplete="off">
-                                    </div>
+                        <div class="glass-2 px-5 py-5 text-dark" id="form-glass"
+                             style="transform: translate(10px, -10px)">
+                            <div class="row">
+                                <div class="col-12 col-md-6 aos-init aos-animate" data-aos="zoom-in-up">
+                                    <input type="text" name="name" class="form-control glass-2 px-3 py-2 mb-3"
+                                           placeholder="Your name" autocomplete="off">
                                 </div>
-                                <div class="row">
-                                    <div class="col-12 aos-init aos-animate" data-aos="zoom-in-up">
-                                        <input type="text" name="subject" class="form-control glass-2 px-3 py-2 mb-3"
-                                               placeholder="Subject" autocomplete="off">
-                                    </div>
+                                <div class="col-12 col-md-6 aos-init aos-animate" data-aos="zoom-in-up">
+                                    <input type="text" name="email" class="form-control glass-2 px-3 py-2 mb-3"
+                                           placeholder="Email Address" autocomplete="off">
                                 </div>
-                                <div class="row">
-                                    <div class="col-12 aos-init aos-animate" data-aos="zoom-in-up">
-                                        <textarea name="subject" class="form-control glass-2 px-3 py-2 mb-3" rows="5"
+                            </div>
+                            <div class="row">
+                                <div class="col-12 aos-init aos-animate" data-aos="zoom-in-up">
+                                    <input type="text" name="subject" class="form-control glass-2 px-3 py-2 mb-3"
+                                           placeholder="Subject" autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 aos-init aos-animate" data-aos="zoom-in-up">
+                                        <textarea name="message" class="form-control glass-2 px-3 py-2 mb-3" rows="5"
                                                   placeholder="Message" autocomplete="off"></textarea>
-                                    </div>
                                 </div>
-                                <div class="text-center mt-2 aos-init buy-button" data-aos="zoom-in-up">
-                                    <a type="submit" class="btn mt-3 px-5 pattern-dots-sm">Submit</a>
-                                </div>
-                            </form>
+                            </div>
+                            <div class="text-center mt-2 aos-init buy-button" data-aos="zoom-in-up">
+                                <button class="btn mt-3 px-5 pattern-dots-sm" id="submit">Submit</button>
+                            </div>
                         </div>
                     </div>
                 </form>
@@ -360,15 +374,16 @@
     </div>
 </section>
 
-<footer class="glass-2 mt-5">
+<footer class="glass-2">
     <div class="container">
         <div class="row py-5">
-            <div class="col-lg-6 col-6">
+            <div class="col-lg-6 col-md-6 col-12 mb-3">
                 <img src="public/img/logo.png" alt="spa proxies" width="250" style="filter: invert()">
                 <p class="mt-3">SPA Proxies LLC. Registered business in the US and CN.</p>
                 <p class="mb-0">Copyright &copy; 2020 - All rights reserved.</p>
+                <br>
             </div>
-            <div class="col-lg-4 col-4">
+            <div class="col-lg-4 col-md-4 col-7">
                 <h2>Policies</h2>
                 <ul>
                     <li><a href="terms.html">Terms of service</a></li>
@@ -376,28 +391,24 @@
                     <li><a href="refund-policy.html">Refund Policy</a></li>
                 </ul>
             </div>
-            <div class="col-lg-2 col-2">
+            <div class="col-lg-2 col-md-2 col-5">
                 <h2>Socials </h2>
                 <p>Follow us on twitter</p>
-                <a href="https://twitter.com/SPA_proxies" class="text-decoration-none text-dark"><i class="fab fa-twitter"></i> SPA Proxies</a>
+                <a href="https://twitter.com/SPA_proxies" class="text-decoration-none text-dark"><i
+                        class="fab fa-twitter"></i> SPA Proxies</a>
             </div>
         </div>
     </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="public/js/particles.min.js"></script>
+<script src="public/js/toastr.min.js"></script>
 <script>
     particlesJS("particles", {
         "particles": {
@@ -507,6 +518,57 @@
 </script>
 <script>
     AOS.init();
+    toastr.options = {
+        "closeButton": true,
+        "debug": false,
+        "newestOnTop": false,
+        "progressBar": false,
+        "positionClass": "toast-top-left",
+        "preventDuplicates": true,
+        "onclick": null,
+        "showDuration": "3000",
+        "hideDuration": "1000",
+        "timeOut": "5000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+    }
 </script>
+<script>
+    $(function () {
+        let form = $('#contact-form');
+
+        $(form).submit(function (event) {
+            event.preventDefault();
+
+            var formData = $(form).serialize();
+            var settings = {
+                "url": "https://spaproxies.io/api/contact-us",
+                "method": "POST",
+                "mimeType": "multipart/form-data",
+                "data": formData,
+            };
+            $.ajax(settings).done(function (response) {
+                response = JSON.parse(response)
+                if (response.Success === true) {
+                    toastr.success(response.Message, "Success")
+                } else if (response.Success === false) {
+                    toastr.error(response.Message, "Error")
+                }
+            }).fail(function (data) {
+                if (data.responseText !== '') {
+                    let response = JSON.parse(data.responseText);
+                    toastr.error(response.Message, "Error")
+                } else {
+                    toastr.error("Check your internet connection.", "Error")
+                }
+            });
+        });
+    });
+
+</script>
+
 </body>
 </html>

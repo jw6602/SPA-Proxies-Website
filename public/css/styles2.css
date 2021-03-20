@@ -266,7 +266,11 @@ footer ul a {
 
     .hero-inner {
         width: 100%;
-        padding-top: 15%;
+        padding-top: 40%;
+    }
+
+    .logo{
+        width: 150px !important;
     }
 
     .tagline {

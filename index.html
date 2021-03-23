@@ -34,7 +34,8 @@
             </button>
             <div class="collapse navbar-collapse lateral-right" id="navbarSupportedContent">
                 <div class="border-2 border-dark border mb-2" data-aos="zoom-in-up">
-                    <span onclick="$('#navbarSupportedContent').toggleClass('open')" class="btn btn-block pattern-dots-sm w-100 fw-bold py-3 fs-5">M E N U</span>
+                    <span onclick="$('#navbarSupportedContent').toggleClass('open')"
+                          class="btn btn-block pattern-dots-sm w-100 fw-bold py-3 fs-5">M E N U</span>
                 </div>
                 <br>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -259,99 +260,310 @@
     <div class="section-heading pattern-dots-sm">
         <h2 class="section-heading-text">Pricing</h2>
     </div>
-    <div>
-        <div class="row mt-5">
-            <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
-                <div class="pattern-diagonal-lines-sm text-light rounded">
-                    <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
-                        <div class="d-flex justify-content-between">
-                            <h2 class="feature-h d-inline">Basic</h2>
-                        </div>
-                        <hr>
-                        <br>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Public pool w/ 10M ips</span></div>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Unlimited Generations</span></div>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Good for restock</span></div>
-                        <div class="buy-button">
-                            <a href="#" class="btn pattern-dots-sm px-4">Buy @ $4/GB</a>
+    <div class="pricing-tabs d-flex justify-content-center">
+        <ul class="nav my-3" id="pills-tab" role="tablist">
+            <li class="nav-item buy-button" role="presentation">
+                <button class="nav-link active pattern-dots-sm btn" data-bs-toggle="pill" data-bs-target="#pills-1"
+                        type="button" role="tab" aria-controls="pills-1" aria-selected="true">Pricing-1
+                </button>
+            </li>
+            <li class="nav-item buy-button" role="presentation">
+                <button class="nav-link pattern-dots-sm btn" data-bs-toggle="pill" data-bs-target="#pills-2"
+                        type="button" role="tab" aria-controls="pills-2" aria-selected="false">Pricing-2
+                </button>
+            </li>
+            <li class="nav-item buy-button" role="presentation">
+                <button class="nav-link pattern-dots-sm btn" data-bs-toggle="pill" data-bs-target="#pills-3"
+                        type="button" role="tab" aria-controls="pills-3" aria-selected="false">Pricing-3
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="tab-content" id="pills-tabContent">
+<!--        Pannel 1 of pricing-->
+        <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row mt-5">
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">Basic</h2>
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Public pool w/ 10M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Unlimited Generations</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Good for restock</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $4/GB</a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">Fresh</h2>
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Private pool w/ 6M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Exclusive to us only</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Cleanest IPs ever</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $9/GB</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">Premium</h2>
+
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Public pool w/ 100M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Exclusive entry servers</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Prefilter pools</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $10/GB</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">AIO</h2>
+
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Private pool w/ 10M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Exclusive to us only</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Prefilter pools</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $12/GB</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-
-            <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
-                <div class="pattern-diagonal-lines-sm text-light rounded">
-                    <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
-                        <div class="d-flex justify-content-between">
-                            <h2 class="feature-h d-inline">Fresh</h2>
-                        </div>
-                        <hr>
-                        <br>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Private pool w/ 6M ips</span></div>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Exclusive to us only</span></div>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Cleanest IPs ever</span></div>
-                        <div class="buy-button">
-                            <a href="#" class="btn pattern-dots-sm px-4">Buy @ $9/GB</a>
+        </div>
+<!--        Pannel Pricing 2-->
+        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row mt-5">
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">Basic</h2>
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Public pool w/ 10M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Unlimited Generations</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Good for restock</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $4/GB</a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">Fresh</h2>
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Private pool w/ 6M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Exclusive to us only</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Cleanest IPs ever</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $9/GB</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">Premium</h2>
+
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Public pool w/ 100M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Exclusive entry servers</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Prefilter pools</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $10/GB</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">AIO</h2>
+
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Private pool w/ 10M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Exclusive to us only</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Prefilter pools</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $12/GB</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-
-            <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
-                <div class="pattern-diagonal-lines-sm text-light rounded">
-                    <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
-                        <div class="d-flex justify-content-between">
-                            <h2 class="feature-h d-inline">Premium</h2>
-
-                        </div>
-                        <hr>
-                        <br>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Public pool w/ 100M ips</span></div>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Exclusive entry servers</span></div>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Prefilter pools</span></div>
-                        <div class="buy-button">
-                            <a href="#" class="btn pattern-dots-sm px-4">Buy @ $10/GB</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
-                <div class="pattern-diagonal-lines-sm text-light rounded">
-                    <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
-                        <div class="d-flex justify-content-between">
-                            <h2 class="feature-h d-inline">AIO</h2>
-
-                        </div>
-                        <hr>
-                        <br>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Private pool w/ 10M ips</span></div>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Exclusive to us only</span></div>
-                        <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
-                                class="mx-2">Prefilter pools</span></div>
-                        <div class="buy-button">
-                            <a href="#" class="btn pattern-dots-sm px-4">Buy @ $12/GB</a>
+        </div>
+<!--        Pannel pricing 3-->
+        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row mt-5">
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">Basic</h2>
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Public pool w/ 10M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Unlimited Generations</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Good for restock</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $4/GB</a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">Fresh</h2>
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Private pool w/ 6M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Exclusive to us only</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Cleanest IPs ever</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $9/GB</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">Premium</h2>
+
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Public pool w/ 100M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Exclusive entry servers</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Prefilter pools</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $10/GB</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div data-aos="zoom-in-up" class="col-lg-3 col-md-6 mb-4">
+                    <div class="pattern-diagonal-lines-sm text-light rounded">
+                        <div class="glass-2 px-5 py-4 text-dark" style="transform: translate(10px, -10px)">
+                            <div class="d-flex justify-content-between">
+                                <h2 class="feature-h d-inline">AIO</h2>
+
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Private pool w/ 10M ips</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Exclusive to us only</span></div>
+                            <div class="mb-3"><i class="fa fa-check text-primary"></i> <span
+                                    class="mx-2">Prefilter pools</span></div>
+                            <div class="buy-button">
+                                <a href="#" class="btn pattern-dots-sm px-4">Buy @ $12/GB</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
+
 </section>
 
 <section id="contact" class="container hero">
@@ -437,12 +649,12 @@
 <script src="public/js/toastr.min.js"></script>
 <script>
     // Menu side toggle
-    $('document').ready(function(){
-        $(".navbar-toggler").click(function(){
+    $('document').ready(function () {
+        $(".navbar-toggler").click(function () {
             let navbar_obj = $($(this).data("bs-target"));
             navbar_obj.toggleClass("open");
         });
-        $("#navbarSupportedContent .active").click(function (){
+        $("#navbarSupportedContent .active").click(function () {
             $("#navbarSupportedContent").toggleClass("open");
         })
     });

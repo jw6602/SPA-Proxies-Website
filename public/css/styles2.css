@@ -187,7 +187,11 @@ footer ul a {
     text-align: justify;
     text-justify: distribute;
 }
-
+#pills-tab .active{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#pills-tab .active:focus {outline:0 !important;box-shadow: none !important;}
 
 @media only screen and (min-width: 1600px) {
     .container {
@@ -308,6 +312,18 @@ footer ul a {
     }
     #home{
         height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-inner{
+        padding-top: 0;
+    }
+    .buy-button .nav-link{
+        font-size: 0.99em;
+        padding: .5rem 1rem;
+        margin-right: 2px;
+        margin-left: 2px;
     }
 }
 

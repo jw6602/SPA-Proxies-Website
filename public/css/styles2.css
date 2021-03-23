@@ -344,7 +344,7 @@ footer ul a {
     }
 
     .logo {
-        width: 150px !important;
+        width: 90px !important;
     }
 
     .tagline {
@@ -390,10 +390,10 @@ footer ul a {
     }
 
     .buy-button .nav-link {
-        font-size: 0.99em;
-        padding: .5rem 1rem;
-        margin-right: 2px;
-        margin-left: 2px;
+        font-size: 0.9em;
+        padding: 0.5rem;
+        margin-right: 1px;
+        margin-left: 1px;
     }
 }
 

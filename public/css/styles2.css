@@ -137,7 +137,7 @@ h2, h3, h1 {
 }
 
 #faq .glass-2 {
-    height: 310px;
+    height: 290px;
 }
 
 .buy-button {
@@ -237,16 +237,16 @@ footer ul a {
     }
 
     .hero-inner {
-        width: 100%;
+        width: 80%;
         /*padding-top: 15%;*/
     }
 
     .tagline {
-        font-size: 3.3em;
+        font-size: 2.5em;
     }
 
     .hero-cta .btn {
-        font-size: 2em;
+        font-size: 1.4em;
     }
 
 
@@ -273,7 +273,7 @@ footer ul a {
     }
 
     #faq .glass-2 {
-        height: 310px;
+        height: 290px;
     }
 
     #pricing .glass-2 {
@@ -335,6 +335,11 @@ footer ul a {
 
     #form-glass {
         padding: 25px 10px !important;
+    }
+
+    #pricing .feature-h {
+        font-weight: bold;
+        font-size: 2em;
     }
 
 

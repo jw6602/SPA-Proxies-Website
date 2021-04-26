@@ -86,8 +86,9 @@ h2, h3, h1 {
 }
 
 .section-heading-text {
-    letter-spacing: 0.5rem;
+    /*letter-spacing: 0.5rem;*/
     font-size: 3rem;
+    font-family: 'Courier New', monospace;
 }
 
 .glass-2 {
